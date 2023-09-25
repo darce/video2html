@@ -1,0 +1,15 @@
+{
+  "name": "video2html",
+  "version": "0.0.1",
+  "description": "Experimental workflow to convert pixel arrays to node collections",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Arcé",
+  "license": "ISC",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "jimp": "^0.22.10"
+  }
+}
