@@ -1,0 +1,15 @@
+:root {
+    --pixel-width: 10px;
+    --pixel-height: 10px;
+}
+
+.frame-container {
+    width: calc(var(--pixel-width) * 100);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.frame-pixel {
+    width: var(--pixel-width);
+    height: var(--pixel-height)
+}
