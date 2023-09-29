@@ -28,6 +28,17 @@ const generateDivsFromFrame = async (imagePath) => {
 
     let htmlContent = `<!DOCTYPE html><html><head>
         <link rel="stylesheet" href="./hexColor.css">
+        <style>
+        .frame-pixel {
+            /* Ensure 3D transformations work */
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+        }
+        
+        .frame-pixel:hover {
+            transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+        }
+    </style>
         </head><body>`
     htmlContent += '<div class="frame-container">'
 

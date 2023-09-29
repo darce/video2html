@@ -13,3 +13,6 @@
     width: var(--pixel-width);
     height: var(--pixel-height)
 }
+
+.frame-pixel:hover {
+    transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg)
